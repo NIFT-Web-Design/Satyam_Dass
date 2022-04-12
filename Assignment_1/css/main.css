@@ -1,0 +1,336 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+
+header{
+  background-color: #2a2a2a;
+  padding: 16px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav{
+  display: block;
+}
+nav a{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #d4d4d4;
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 13px;
+      transition: all .2s;
+}
+
+nav a:hover{
+  color: white;
+}
+
+nav a#baskinRobins{
+  background-color: #107698;
+  color: white;
+}
+nav a#plus{
+  color: #ffa500
+}
+
+#selfServices h1{
+  background-image: url(https://www.optimal-partners.com/site_images/ourServicesHeader.jpg);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  display: block;
+  text-shadow: 1px 2px 3px #000;
+  margin: 0;
+  width: 100%;
+  font-weight: lighter;
+
+}
+
+/*=====main content margins===*/
+.redGrey{
+  max-width: 1150px;
+  padding-bottom: 70px;
+  margin: auto;
+}
+
+
+.redContainer{
+  background-color: white;
+  max-width: 1150px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+h2{
+  font-size: 34px;
+  color: #0a465b;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  font-weight: lighter;
+}
+
+div.redGrey > p{
+  text-align: center;
+  color: #7f969e;
+  padding: 10px 0px;
+  margin: auto;
+  max-width: 900px;
+  line-height: 1.4;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section.redContainer p span.avengers{
+  color: #FFA500;
+}
+
+.deadpool{
+  background-color: #EDEff3;
+  padding: 50px 0 70px;
+}
+
+.spiderman{
+  padding-top: 50px;
+  margin: auto;
+}
+
+/*==variety services boxes styling==*/
+.apple{
+  display: flex;
+  gap:32px;
+  justify-content: center;
+  background-color: #EDEff3;
+}
+.avengers article.calculatingflex{
+  width: 260px;
+  background-color: white;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20%);
+  height: 390px;
+}
+.calculatingflex h3{
+  font-size: 22px;
+  font-weight: 200;
+  box-sizing: border-box;
+  background-color: #107698;
+  color: #ffff;
+  text-align: center;
+  height: 110px;
+  border-bottom: 5px solid lightgrey;
+  padding: 20px 10px 20px 10px;
+  line-height: 1.4;
+}
+.calculatingflex p{
+  padding: 20px 20px 30px 20px;
+  color: #7f969e;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.addmargin{
+  padding-top: 40px!important;
+}
+.calculatingflex p span.avengers{
+  color: #FFA500;
+}
+
+
+/*=====timing flex section style*=====*/
+.karma{
+  max-width: 350px;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.karma h4{
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a465b;
+  border-bottom: 2px solid #FDB530;
+  padding: 7px 0;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.budgetFlex{
+  margin-left: 180px;
+}
+
+.karma p{
+  padding: 15px;
+  text-align: center;
+  color: #7f969e;
+  line-height: 1.5;
+  font-size: 14px;
+}
+/*=====wide variety section style===*/
+.wideVariety{
+  background-color: #EDEff3;
+  padding: 50px 0 70px;
+}
+.snake h3{
+  font-size: 17px;
+  font-weight: lighter;
+  box-sizing: border-box;
+  background-color: #107698;
+  color: #ffff;
+  text-align: center;
+  height: 81px;
+  text-transform: uppercase;
+  border-bottom: 5px solid lightgrey;
+  padding: 25px 10px 20px 10px;
+  line-height: 1.4
+}
+
+.snake p{
+  padding: 20px 20px 30px 20px;
+  color: #7f969e;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #ffff;
+  height: 210px;
+}
+.wideSpecialisation{
+  gap:32px;
+  display: flex;
+  background-color: #EDEff3;
+  justify-content: center;
+}
+.wideSpecialisation article.snake{
+  max-width: 310px;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 /20%);
+  margin-bottom: 30px;
+  margin-right: 60px;
+}
+.boxes p span.person{
+  color: #FFA500;
+}
+/*====Get in touch part style*/
+
+.mostdiff{
+  padding-top: 50px;
+  margin: auto;
+}
+section.mostdiff .left{
+  margin: 0 47px;
+  margin-bottom: 30px;
+  position: relative;
+}
+section.mostdiff .left .underLeft{
+  display: inline-block;
+}
+section.mostdiff .left .hover{
+  display: inline-block;
+  margin-left: 112px;
+  margin-top: 37px;
+}
+#contactpic {
+  margin-left: 130px;
+  border-radius: 50%;
+  border: 8px solid rgba(253, 181, 48, 0.7);
+  position: relative;
+  bottom: 73px;
+    left: 134px;
+}
+#happy{
+  width: 260px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #7f969e;
+  text-align: center;
+  border-top: 1px solid #107698;
+  border-bottom: 1px solid #107698;
+  padding: 10px 0;
+  display: inline-block;
+  margin-top: 16px;
+  position: relative;
+  bottom: 22px;
+  right: 78px;
+  line-height: 1.4;
+}
+
+#seperate{
+  right: 30px;
+  top: 80px;
+  height: 25%;
+  top: -5px
+/* height: 90%; */
+position: absolute
+}
+
+
+#box{
+  width: 165px;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: white;
+  padding: 15px 0px 15px 50px;
+  background-color: #107698;
+  border: 2px solid #FDB530;
+  border-radius: 4px;
+  box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 50%);
+  position: relative;
+  margin-left: 65px;
+  display: inline-block;
+  transition: .2s;
+}
+#box:hover{
+  top: 5px;
+}
+#online{
+  min-width: 350px;
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 35px;
+  padding-top: 25px;
+
+}
+div#online #li, #tw, #fb {
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0 12px;
+  transition: .2s;
+}
+/*====trusted part styling===*/
+#girl{
+  width: 100%;
+    padding: 50px 0;
+    background-color: #edeff3;
+}
+#littleDifferent{
+  padding-bottom: 9px;
+}
+
+#girl .sponserimg img{
+  text-align: center;
+  margin: auto;
+  padding-left: 290px;
+  height: 90px;
+}
+/*===footer styling====*/
+footer{
+  background-color: #504f4f;
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+  color: #c7c5c5;
+  text-align: center;
+  padding: 40px 0;
+}
